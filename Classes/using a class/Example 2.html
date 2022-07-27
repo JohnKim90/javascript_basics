@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Class</title>
+  </head>
+  <body>
+    <h2>Javascript Class</h2>
+    <p>How to use a javascript Class</p>
+    <p id="month"></p>
+    <script>
+      class Month {
+        constructor(name, year) {
+          this.name = name;
+          this.year = year;
+        }
+      }
+
+      const myMonth = new Month("January", 1);
+      document.getElementById("month").innerHTML =
+        myMonth.name + "" + myMonth.year;
+    </script>
+  </body>
+</html>
