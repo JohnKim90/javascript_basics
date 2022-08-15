@@ -1,6 +1,7 @@
-let amount = 10;
+let i = 1;
 
-      while (amount > 0) {
-        console.log(" i have " + amount + "dollas and i'm going to the mall");
-        amount--;
-      }
+while(i<11){
+  console.log(i  ,"Countdown");
+  i++
+}
+
